@@ -1,6 +1,20 @@
 
 # Unsupervised Prompt Learning for Vision-Language Models
+🧩 Note from Hao (for CSE589 Final Project)
 
+This repository is adapted for the **CSE589 Final Project**.  
+To ensure compatibility with **Google Colab (PyTorch ≥ 2.7.0)**, I modified the following line in  
+`/content/Dassl.pytorch/dassl/optim/lr_scheduler.py`:
+
+```python
+super().__init__(optimizer, last_epoch, verbose)
+```
+was changed to
+```
+super().__init__(optimizer, last_epoch=last_epoch)
+```
+This fix resolves the TypeError caused by API changes in recent PyTorch versions.
+The main execution notebook is CSE589_Final.ipynb, which contains the complete workflow for dataset preparation, training, and evaluation on Colab.
 
 ## Introduction
 
@@ -14,6 +28,7 @@ Contact us with tonyhuang_pku@outlook.com or fawe@microsoft.com.
 
 Fig.1 Overview of Unsupervised Prompt Learning (UPL) Framework.
 </center>
+
 
 ## Install
 
