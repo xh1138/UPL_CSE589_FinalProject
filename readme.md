@@ -16,6 +16,11 @@ super().__init__(optimizer, last_epoch=last_epoch)
 This fix resolves the TypeError caused by API changes in recent PyTorch versions.
 The main execution notebook is CSE589_Final.ipynb, which contains the complete workflow for dataset preparation, training, and evaluation on Colab.
 
+📦 The trained model outputs and logs are available here:
+
+https://drive.google.com/drive/folders/1bPnXSzib0ypN_YVRIMS7vhxBMQndf137?usp=drive_link
+
+
 ## Introduction
 
 This repo is the official implementation of **Unsupervised Prompt Learning for Vision-Language Models**. UPL is the first framework to introduce unsupervised learning into prompt learning of vision-language models to avoid time-consuming prompt engineering and better adapt vision-language models for the downstream image recognition task.
