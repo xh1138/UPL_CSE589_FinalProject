@@ -18,7 +18,7 @@ The main execution notebook is CSE589_Final.ipynb, which contains the complete w
 
 📦 The trained model outputs and logs are available here:
 
-https://drive.google.com/drive/folders/1bPnXSzib0ypN_YVRIMS7vhxBMQndf137?usp=drive_link
+https://drive.google.com/drive/folders/1bPnXSzib0ypN_YVRIMS7vhxBMQndf137?usp=sharing
 
 
 ## Introduction
